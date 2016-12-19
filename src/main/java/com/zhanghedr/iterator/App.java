@@ -25,6 +25,7 @@ public class App {
         items.addItem(new Item(5, "val5"));
         items.addItem(new Item(2, "val222"));
         items.addItem(new Item(6, "val6"));
+        items.addItem(new Item(2, "val2222"));
         return items;
     }
 
