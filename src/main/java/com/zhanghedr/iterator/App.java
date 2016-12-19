@@ -3,7 +3,7 @@ package com.zhanghedr.iterator;
 public class App {
 
     public static void main(String[] args) {
-        ItemCollection items = createCollection();
+    	Items items = createItems();
         ItemIterator iterator = items.itemIterator();
         while (iterator.hasNext())
             System.out.println(iterator.next());
@@ -15,8 +15,8 @@ public class App {
             System.out.println(groupIterator.nextInGroup());
     }
 
-    private static ItemCollection createCollection() {
-        ItemCollection items = new ItemCollectionImpl();
+    private static Items createItems() {
+    	Items items = new ItemsImpl();
         items.addItem(new Item(1, "val1"));
         items.addItem(new Item(2, "val2"));
         items.addItem(new Item(3, "val3"));

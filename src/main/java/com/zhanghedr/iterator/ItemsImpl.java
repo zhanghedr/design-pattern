@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class ItemCollectionImpl implements ItemCollection {
+public class ItemsImpl implements Items {
 
     private List<Item> items;
 
-    public ItemCollectionImpl() {
+    public ItemsImpl() {
         items = new ArrayList<>();
     }
 

@@ -1,6 +1,6 @@
 package com.zhanghedr.iterator;
 
-public interface ItemCollection {
+public interface Items {
 
     boolean addItem(Item item);
 
