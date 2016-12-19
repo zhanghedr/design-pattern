@@ -55,7 +55,8 @@ public class ItemCollectionImpl implements ItemCollection {
             super();
             this.group = group;
         }
-
+        
+        @Override
         public boolean hasNextInGroup() {
             int i = cursor;
             while (i < items.size()) {
@@ -65,7 +66,8 @@ public class ItemCollectionImpl implements ItemCollection {
             }
             return false;
         }
-
+        
+        @Override
         public Item nextInGroup() {
             while (cursor < items.size()) {
                 Item item = items.get(cursor);
