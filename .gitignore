@@ -9,6 +9,8 @@
 *.ear
 
 # IDE files
+.idea/
+*.iml
 .project
 .classpath
 .settings/
