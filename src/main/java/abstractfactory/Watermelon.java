@@ -1,4 +1,4 @@
-package com.zhanghedr.factory;
+package abstractfactory;
 
 class Watermelon extends Fruit {
 
