@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.13" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="abstractfactory.AbstractFactory" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/AbstractFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="com.zhanghedr.abstractfactory.AbstractFactory" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/AbstractFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="117" width="124" x="995" y="-87"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +11,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="abstractfactory.Kitchen2Factory" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/Kitchen2Factory.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="com.zhanghedr.abstractfactory.Kitchen2Factory" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/Kitchen2Factory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="969" y="116"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +21,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="abstractfactory.Apple" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/Apple.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="com.zhanghedr.abstractfactory.Apple" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/Apple.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="652" y="393"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +30,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="abstractfactory.Kitchen1Factory" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/Kitchen1Factory.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="com.zhanghedr.abstractfactory.Kitchen1Factory" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/Kitchen1Factory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1125" y="116"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,8 +40,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="abstractfactory.Noodle" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/Noodle.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="com.zhanghedr.abstractfactory.Noodle" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/Noodle.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1135" y="387"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -46,8 +49,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="abstractfactory.Fruit" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/Fruit.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="com.zhanghedr.abstractfactory.Fruit" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/Fruit.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="856" y="252"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -55,8 +58,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="abstractfactory.Pizza" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/Pizza.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="7" language="java" name="com.zhanghedr.abstractfactory.Pizza" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/Pizza.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1303" y="387"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -64,8 +67,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="abstractfactory.Watermelon" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/Watermelon.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="8" language="java" name="com.zhanghedr.abstractfactory.Watermelon" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/Watermelon.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="817" y="393"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -73,8 +77,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="abstractfactory.App" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/App.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="9" language="java" name="com.zhanghedr.abstractfactory.App" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/App.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="789" y="4"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -82,8 +86,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="abstractfactory.Blueberry" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/Blueberry.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="10" language="java" name="com.zhanghedr.abstractfactory.Blueberry" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/Blueberry.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="982" y="393"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -91,8 +96,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="11" language="java" name="abstractfactory.Food" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/Food.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="11" language="java" name="com.zhanghedr.abstractfactory.Food" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/Food.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1217" y="255"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -100,8 +105,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <enumeration id="12" language="java" name="abstractfactory.FruitSize" project="design-pattern" 
-    file="/design-pattern/src/main/java/abstractfactory/FruitSize.java" binary="false" corner="BOTTOM_RIGHT">    
+  <enumeration id="12" language="java" name="com.zhanghedr.abstractfactory.FruitSize" project="design-pattern" 
+    file="/design-pattern/src/main/java/com/zhanghedr/abstractfactory/FruitSize.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="651" y="257"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      

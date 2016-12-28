@@ -1,4 +1,4 @@
-package abstractfactory;
+package com.zhanghedr.abstractfactory;
 
 public abstract class AbstractFactory {
 

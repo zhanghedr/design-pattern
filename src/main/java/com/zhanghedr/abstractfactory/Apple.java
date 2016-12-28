@@ -1,4 +1,4 @@
-package abstractfactory;
+package com.zhanghedr.abstractfactory;
 
 class Apple extends Fruit {
 

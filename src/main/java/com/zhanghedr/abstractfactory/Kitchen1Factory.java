@@ -1,4 +1,4 @@
-package abstractfactory;
+package com.zhanghedr.abstractfactory;
 
 public class Kitchen1Factory extends AbstractFactory {
 
