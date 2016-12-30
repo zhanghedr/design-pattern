@@ -23,7 +23,8 @@ public class App {
         }
     }
 
-    private class SingletonInitializationOnDemandHolderIdiomRun implements Runnable {
+    private class SingletonInitializationOnDemandHolderIdiomRun implements
+            Runnable {
         @Override
         public void run() {
             SingletonInitializationOnDemandHolderIdiom.getInstance();

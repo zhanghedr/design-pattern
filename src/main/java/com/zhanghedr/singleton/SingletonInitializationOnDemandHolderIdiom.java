@@ -10,7 +10,8 @@ package com.zhanghedr.singleton;
 public class SingletonInitializationOnDemandHolderIdiom {
 
     private SingletonInitializationOnDemandHolderIdiom() {
-        System.out.println("SingletonInitializationOnDemandHolderIdiom instance created");
+        System.out
+                .println("SingletonInitializationOnDemandHolderIdiom instance created");
     }
 
     private static class SingletonHelper {

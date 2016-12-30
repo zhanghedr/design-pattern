@@ -48,14 +48,15 @@ public class ItemsImpl implements Items {
         }
     }
 
-    private class ItemGroupIteratorImpl extends ItemIteratorImpl implements ItemGroupIterator {
+    private class ItemGroupIteratorImpl extends ItemIteratorImpl implements
+            ItemGroupIterator {
         int group;
 
         ItemGroupIteratorImpl(int group) {
             super();
             this.group = group;
         }
-        
+
         @Override
         public boolean hasNextInGroup() {
             int i = cursor;
@@ -66,7 +67,7 @@ public class ItemsImpl implements Items {
             }
             return false;
         }
-        
+
         @Override
         public Item nextInGroup() {
             while (cursor < items.size()) {

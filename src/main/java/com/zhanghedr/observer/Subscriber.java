@@ -13,7 +13,8 @@ public class Subscriber implements Observer {
     @Override
     public void update(Object o) {
         Publisher publisher = (Publisher) o;
-        System.out.println(String.format("Subscriber %s consumes message: %s", name, publisher.getMessage()));
+        System.out.println(String.format("Subscriber %s consumes message: %s",
+                name, publisher.getMessage()));
     }
 
 }
