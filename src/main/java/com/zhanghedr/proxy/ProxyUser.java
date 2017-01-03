@@ -5,11 +5,9 @@ package com.zhanghedr.proxy;
  */
 public class ProxyUser implements User {
 
-    private final RealUser realUser;
-
-    private int numOfGames;
-
     private static final int MAX_GAME = 2;
+    private final RealUser realUser;
+    private int numOfGames;
 
     public ProxyUser(RealUser realUser) {
         this.realUser = realUser;

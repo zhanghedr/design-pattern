@@ -2,9 +2,8 @@ package com.zhanghedr.adapter;
 
 /**
  * Wireless Mouse with USB receiver
- * 
- * @author hzhang
  *
+ * @author hzhang
  */
 public class WirelessMouse {
 

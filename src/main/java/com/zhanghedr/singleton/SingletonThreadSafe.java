@@ -3,9 +3,8 @@ package com.zhanghedr.singleton;
 /**
  * Lazy initialization, thread-safe, low performance due to synchronized
  * blocking
- * 
- * @author hezha_000
  *
+ * @author hezha_000
  */
 public class SingletonThreadSafe {
 

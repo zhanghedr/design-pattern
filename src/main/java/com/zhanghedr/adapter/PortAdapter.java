@@ -2,9 +2,8 @@ package com.zhanghedr.adapter;
 
 /**
  * USB to TypeC for 2016 MacBook Pro
- * 
- * @author hzhang
  *
+ * @author hzhang
  */
 public class PortAdapter implements Usb {
 

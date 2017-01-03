@@ -3,9 +3,8 @@ package com.zhanghedr.singleton;
 /**
  * Lazy initialization, thread-safe and high performance for all Java versions
  * preferred
- * 
- * @author hezha_000
  *
+ * @author hezha_000
  */
 public class SingletonInitializationOnDemandHolderIdiom {
 
@@ -14,12 +13,12 @@ public class SingletonInitializationOnDemandHolderIdiom {
                 .println("SingletonInitializationOnDemandHolderIdiom instance created");
     }
 
-    private static class SingletonHelper {
-        private static final SingletonInitializationOnDemandHolderIdiom INSTANCE = new SingletonInitializationOnDemandHolderIdiom();
-    }
-
     public static SingletonInitializationOnDemandHolderIdiom getInstance() {
         return SingletonHelper.INSTANCE;
+    }
+
+    private static class SingletonHelper {
+        private static final SingletonInitializationOnDemandHolderIdiom INSTANCE = new SingletonInitializationOnDemandHolderIdiom();
     }
 
 }

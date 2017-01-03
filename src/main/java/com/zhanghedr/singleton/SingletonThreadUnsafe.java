@@ -2,9 +2,8 @@ package com.zhanghedr.singleton;
 
 /**
  * Lazy initialization, thread-unsafe.
- * 
- * @author hezha_000
  *
+ * @author hezha_000
  */
 public class SingletonThreadUnsafe {
 

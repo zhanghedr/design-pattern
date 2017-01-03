@@ -6,7 +6,9 @@ package com.zhanghedr.template;
 public abstract class Strategy {
 
     abstract void init();
+
     abstract void calculate();
+
     abstract void finish();
 
     public void execute() {

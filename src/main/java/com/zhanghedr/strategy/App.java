@@ -1,9 +1,5 @@
 package com.zhanghedr.strategy;
 
-import com.zhanghedr.proxy.ProxyUser;
-import com.zhanghedr.proxy.RealUser;
-import com.zhanghedr.proxy.User;
-
 /**
  * Created by zhanghedr on 1/2/17.
  */

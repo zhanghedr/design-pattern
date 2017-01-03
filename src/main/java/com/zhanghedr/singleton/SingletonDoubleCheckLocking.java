@@ -3,9 +3,8 @@ package com.zhanghedr.singleton;
 /**
  * Lazy initialization, thread-safe, high performance with non-blocking
  * synchronized. But broken in certain environments with limitations
- * 
- * @author hezha_000
  *
+ * @author hezha_000
  */
 public class SingletonDoubleCheckLocking {
 
